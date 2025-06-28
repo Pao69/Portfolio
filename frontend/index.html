@@ -3,33 +3,98 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio Website</title>
-    <link rel="stylesheet" href="style/style.css">
+        <link rel="icon" type="image/x-icon" href="images/pao.jpg" border-radius: 50%;>
+    <title>Shaiyon's Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
-
 <body>
+    
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="nav-logo">Sha</div>
+        <div class="nav-links">
+            <a href="#about" class="nav-link">About</a>
+            <a href="#projects" class="nav-link">Projects</a>
+            <a href="#contact" class="nav-link">Contact</a>
+        </div>
+    </nav>
 
-    <header>
-        <h1>Shaiyon's Portfolio</h1>
+    <!-- Hero Section -->
+    <header id="about" class="hero">
+        <img src="images/pao.jpg" alt="Profile Picture" class="hero-image">
+        <h1 class="hero-title">Hello, I'm Sha!</h1>
+        <p class="hero-text">I'm a passionate student pursuing my academic journey in Information Technology.</p>
     </header>
 
-    <main>
-        <div class="container">
-            <div class="header">
-                <h1>My Portfolio</h1>
-            </div>
-            <div class="about-me">
-                <img src="images/pao.jpg" height="256" width="256" alt="Profile Picture">
-                <h1>Hello, I'm Sha!</h1>
-                <p>I'm a passionate student pursuing my academic journey.</p>
-                <p>I'm currently studying Information Technology.</p>
-            </div>
-        </div>
-    </main>
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <h2 class="section-title">My Projects</h2>
+        <p class="section-subtitle">Here are some of my recent works</p>
+        <hr class="section-divider">
+        
+        <!-- Project Cards -->
+        <div class="project-container">
 
-    <footer>
+            <!-- Project 1 -->
+            <div class="project-card">
+                <img src="images/pao.jpg" alt="Project Image" class="project-image">
+                <div class="project-content">
+                    <h3>Task Management System</h3>
+                    <p>A simple task management system that allows you to add, edit, and delete tasks.</p>
+                    <a href="https://github.com/Pao69/Finals" class="project-link">View Project</a>
+                </div>
+            </div>
+
+            <!-- Project 2 -->
+            <div class="project-card">
+                <img src="images/pao.jpg" alt="Project Image" class="project-image">
+                <div class="project-content">
+                    <h3>Arch Linux</h3>
+                    <p>My Arch Linux setup and configuration.</p>
+                    <a href="https://github.com/Pao69/ArchLinux" class="project-link">View Project</a>
+                </div>
+            </div>
+
+            <!-- Project 3 -->  
+            <div class="project-card">
+                <img src="images/pao.jpg" alt="Project Image" class="project-image">
+                <div class="project-content">
+                    <h3>Integrative Programming</h3>
+                    <p>My Integrative Programming project.</p>
+                    <a href="https://github.com/Pao69/INTEGRATIVE-PROGRAMMING" class="project-link">View Project</a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2 class="section-title">Contact Me</h2>
+        <p class="section-subtitle">Let's connect and create something amazing together</p>
+        
+        <div class="contact-links">
+
+            <a href="mailto:paolovaldez69@gmail.com" class="contact-link">
+                <div class="contact-icon">📧</div>
+                <span>Email</span>
+            </a>
+
+            <a href="https://github.com/Pao69" class="contact-link">
+                <div class="contact-icon">💻</div>
+                <span>GitHub</span>
+            </a>
+
+            <a href="components/gcash.html" class="contact-link">
+                <div class="contact-icon">💰</div>
+                <span>GCash</span>
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
         <p>&copy; 2025 Shaiyon. All rights reserved.</p>
     </footer>
-    
 </body>
 </html>
