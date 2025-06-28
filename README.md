@@ -9,7 +9,8 @@
 ├── frontend/         # Static frontend files
 │   ├── css/         # Stylesheets
 │   ├── js/          # JavaScript files
-│   ├── images/      # Image assets
-│   └── index.html   # Main HTML file
-└── README.md        # This file
+│   └── images/      # Image assets
+│    
+├── README.md        # This file
+└── index.html   # Main HTML file
 ```
