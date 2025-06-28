@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="icon" type="image/x-icon" href="images/pao.jpg" border-radius: 50%;>
+        <link rel="icon" type="icon" href="images/pao.jpg">
     <title>Shaiyon's Portfolio</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
@@ -11,7 +11,7 @@
     
     <!-- Navigation -->
     <nav class="nav">
-        <div class="nav-logo">Sha</div>
+        <div class="nav-logo">SHA</div>
         <div class="nav-links">
             <a href="#about" class="nav-link">About</a>
             <a href="#projects" class="nav-link">Projects</a>
@@ -21,10 +21,14 @@
 
     <!-- Hero Section -->
     <header id="about" class="hero">
+
         <img src="images/pao.jpg" alt="Profile Picture" class="hero-image">
         <h1 class="hero-title">Hello, I'm Sha!</h1>
         <p class="hero-text">I'm a passionate student pursuing my academic journey in Information Technology.</p>
+        
+        <hr style="border: 1px solid #6D8597; margin-left: 12%; margin-right: 12%;">
     </header>
+    
 
     <!-- Projects Section -->
     <section id="projects" class="projects">
@@ -37,38 +41,50 @@
 
             <!-- Project 1 -->
             <div class="project-card">
-                <img src="images/pao.jpg" alt="Project Image" class="project-image">
+                <div class="project-image-container">
+                    <img src="images/task.svg" alt="Task Management System" class="project-image">
+                </div>
                 <div class="project-content">
                     <h3>Task Management System</h3>
-                    <p>A simple task management system that allows you to add, edit, and delete tasks.</p>
-                    <a href="https://github.com/Pao69/Finals" class="project-link">View Project</a>
+                    <p><i>A simple task management system that allows you to add, edit, and delete tasks.</i></p>
+                    <div class="button-container">
+                        <a href="https://github.com/Pao69/Finals" class="btn" target="_blank">View Project</a>
+                    </div>
                 </div>
             </div>
 
             <!-- Project 2 -->
             <div class="project-card">
-                <img src="images/pao.jpg" alt="Project Image" class="project-image">
+                <div class="project-image-container">
+                    <img src="images/arch.svg" alt="Arch Linux Setup" class="project-image">
+                </div>
                 <div class="project-content">
                     <h3>Arch Linux</h3>
-                    <p>My Arch Linux setup and configuration.</p>
-                    <a href="https://github.com/Pao69/ArchLinux" class="project-link">View Project</a>
+                    <p><i>My Arch Linux setup and configuration.</i></p>
+                    <div class="button-container">
+                        <a href="https://github.com/Pao69/ArchLinux" class="btn" target="_blank">View Project</a>
+                    </div>
                 </div>
             </div>
 
             <!-- Project 3 -->  
             <div class="project-card">
-                <img src="images/pao.jpg" alt="Project Image" class="project-image">
+                <div class="project-image-container">
+                    <img src="images/pao.jpg" alt="Integrative Programming Project" class="project-image">
+                </div>
                 <div class="project-content">
                     <h3>Integrative Programming</h3>
-                    <p>My Integrative Programming project.</p>
-                    <a href="https://github.com/Pao69/INTEGRATIVE-PROGRAMMING" class="project-link">View Project</a>
+                    <p><i>My Integrative Programming project.</i></p>
+                    <div class="button-container">
+                        <a href="https://github.com/Pao69/INTEGRATIVE-PROGRAMMING" class="btn" target="_blank">View Project</a>
+                    </div>
                 </div>
             </div>
-
+            <hr class="section-divider">
             <!-- Project Box -->
             <div class="project-box">
-                <div class="box" id="box1">1</div>
-                <div class="box" id="box2">2</div>
+                <div class="box" id="box1"><img src="images/task.svg" alt="Project Image" class="project-image-box"></div>
+                <div class="box" id="box2"><img src="images/arch.svg" alt="Project Image" class="project-image-box"></div>  
                 <div class="box" id="box3">3</div>
             </div>
 
@@ -103,5 +119,6 @@
     <footer class="footer">
         <p>&copy; 2025 Shaiyon. All rights reserved.</p>
     </footer>
+
 </body>
 </html>
